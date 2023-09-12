@@ -1,0 +1,143 @@
+.header_button{
+    padding: 10px 20px;
+}
+.header_nav_container{
+    text-align: right;
+    float: right;
+    padding-right: 127px;
+    margin-top: -41px;
+    margin-right: -200px;
+}
+.header_span_1{
+    padding: 10px;
+}
+.header_span_2{
+    padding: 10px;    
+}
+#inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#outer{
+    position: relative;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+    overflow: auto;
+}
+.title{
+    margin-left: 50px;
+    margin-top: 155px;
+}
+#image1{
+    float: right;
+    margin-right: 36px;
+    margin-top: -233px;
+}
+.finder{
+    margin-left: 50px;
+    margin-top: 74px;
+}
+.line{
+    margin-top: 21px;
+    margin-bottom: 50px;
+}
+.header_rectangle{
+    display: inline-block;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 52px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+.arrow{
+    margin-top: 26px;
+    margin-right: 26px;
+    transform: rotate(315deg);
+    float: right;
+}
+#explore{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#image2{
+    margin-left: 50px;
+    display: inline block;
+}
+#section1{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.paragraph{
+    text-align: left;
+    padding-left: 102px;
+    padding-top: 96px;
+}
+.container1{
+    display: flex;
+}
+#learn{
+    margin-top: 25px;
+}
+#view{
+    float: right;
+    margin-right: 140px;
+}
+#section2{
+    margin-left: 120px;
+    margin-right: 241px;
+    margin-top: 160px;
+    margin-bottom: 80px;
+    padding-left: 120px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-right: 240px;
+}
+.right_arrow{
+    margin-right: -68px;
+    margin-top: 7px;
+    transform: rotate(225deg);
+    float: right;
+}
+.third_images{
+    margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: -20px;
+    display: inline-block;
+}
+.white_rectangle{
+    display: inline-block;
+    margin-right: 161px;
+    margin-top: -140px;
+}
+.lower{
+    margin-top: -20px;
+}
+#footer_text{
+    float: right;
+    margin-right: 215px;
+    margin-top: -30px;
+}
+.footer_line{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+#footer_logo{
+    margin-left: 150px;
+}
+.social-medias{
+    text-align: center;
+}
+.media-logo{
+    margin: 10px;
+}

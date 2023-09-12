@@ -1,0 +1,42 @@
+@keyframes explore_animation{
+    0% {background-color: #FB8F1D;
+    border-color: #FB8F1D;}
+    50% {background-color: #811E73;
+    border-color: #811E73;}
+    100% {background-color: #FB8F1D;
+        border-color: #FB8F1D;}
+}
+#explore{
+    animation-name: explore_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes line_animation{
+    from {
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
+.line{
+    animation-name: line_animation;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+@keyframes nav_animation{
+    from{
+        margin-right: -200px;
+    }
+    to{
+        margin-right: 0px;
+    }
+}
+.header_nav_container{
+    animation-name: nav_animation;
+    animation-delay: 1s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
