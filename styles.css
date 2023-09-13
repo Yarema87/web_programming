@@ -1,99 +1,182 @@
-#login{
-    height: 44px;
-    width: 132px;
-}
-#register{
-    height: 44px;
-    width: 132px;
-}
-.header_nav_container{
-    height: 60px;
-    width: 663px;
-}
-#inner{
-    height: 15px;
-    width: 15px;
-}
-#outer{
-    height: 41px;
-    width: 41px;
-}
-.logo{
-    height: 41px;
-    width: 41px;
-}
-.title{
-    width: 356px;
-    height: 160px;
-}
-#first_image{
-    height: 654px;
-    width: 687px;
-}
-.finder{
-    height: 237px;
-    width: 470px;
-}
-.line{
-    width: 32px;
-    height: 2px;
-}
-.header_rectangle{
-    width: 220px;
-    height: 52px;
-}
-.arrow{
-    width: 6px;
-    height: 6px;
-}
-#explore{
-    width: 180px;
-    height: 60px;
-}
-#second_image{
-    width: 659px;
-    height: 534px;
-}
-#section1{
-    width: 1600px;
-    height: 774px;
-}
-.header{
-    width: 1415px;
-    height: 786px;
-}
-.paragraph{
-    width: 481px;
-    height: 333px;
-}
-#learn{
-    width: 164px;
-    height: 48px;
-}
-#section2{
-    width: 1239px;
-    height: 532px;
-}
-.right_arrow{
-    width: 6px;
-    height: 6px;
-}
-.third_images{
-    width: 261px;
-    height: 306px;
-}
-.white_rectangle{
-    width: 120px;
-    height: 56px;
-}
-.footer_line{
-    height: 0.6px;
-    width: 1219px;
-}
-.media-logo{
-    height: 30px;
-    width: 30px;
-}
 body{
-    width: 1600px;
+    width: 90%;
 }
+@media (min-width: 321px){
+    .header_nav_container{
+        height: 60px;
+        width: 60%;
+    }
+    #login{
+        height: 44px;
+        width: 12%;
+    }
+    #register{
+        height: 44px;
+        width: 12%;
+    }
+    #inner{
+        height: 15px;
+        width: 15px;
+    }
+    #outer{
+        height: 41px;
+        width: 41px;
+    }
+    .logo{
+        height: 41px;
+        width: 41px;
+    }
+    .title{
+        width: 356px;
+        height: 160px;
+    }
+    #first_image{
+        height: 654px;
+        width: 687px;
+    }
+    .finder{
+        height: 237px;
+        width: 470px;
+    }
+    .line{
+        width: 32px;
+        height: 2px;
+    }
+    .header_rectangle{
+        width: 220px;
+        height: 52px;
+    }
+    .arrow{
+        width: 6px;
+        height: 6px;
+    }
+    #explore{
+        width: 180px;
+        height: 60px;
+    }
+    #second_image{
+        width: 659px;
+        height: 534px;
+    }
+    #section1{
+        width: 1600px;
+        height: 774px;
+    }
+    .header{
+        width: 1415px;
+        height: 786px;
+    }
+    .paragraph{
+        width: 481px;
+        height: 333px;
+    }
+    #learn{
+        width: 164px;
+        height: 48px;
+    }
+    #section2{
+        width: 1239px;
+        height: 532px;
+    }
+    .right_arrow{
+        width: 6px;
+        height: 6px;
+    }
+    .third_images{
+        width: 261px;
+        height: 306px;
+    }
+    .white_rectangle{
+        width: 120px;
+        height: 56px;
+    }
+    .footer_line{
+        height: 0.6px;
+        width: 1219px;
+    }
+    .media-logo{
+        height: 30px;
+        width: 30px;
+    }
+}
+@media (max-width: 320px){
+    .title{
+        width: 320px;
+        height: 160px;
+    }
+    #first_image{
+        height: 219px;
+        width: 229px;
+    }
+    .finder{
+        height: 237px;
+        width: 300px;
+    }
+    .line{
+        width: 32px;
+        height: 2px;
+    }
+    .header_rectangle{
+        width: 100px;
+        height: 52px;
+    }
+    .arrow{
+        width: 6px;
+        height: 6px;
+    }
+    #explore{
+        width: 180px;
+        height: 60px;
+    }
+    #second_image{
+        width: 236px;
+        height: 191px;
+    }
+    #section1{
+        width: 320px;
+        height: 774px;
+    }
+    .header{
+        width: 320px;
+        height: 786px;
+    }
+    .paragraph{
+        width: 320px;
+        height: 333px;
+    }
+    #learn{
+        width: 180px;
+        height: 60px;
+    }
+    #section2{
+        width: 320px;
+        height: 532px;
+    }
+    .right_arrow{
+        width: 6px;
+        height: 6px;
+    }
+    .third_images{
+        width: 261px;
+        height: 306px;
+    }
+    .white_rectangle{
+        width: 120px;
+        height: 56px;
+    }
+    .footer_line{
+        height: 0.6px;
+        width: 300px;
+    }
+    .media-logo{
+        height: 30px;
+        width: 30px;
+    }
+    #footer_text{
+        width: 90%;
+    }
+    body{
+        width: 320px;
+    }
+}
+
