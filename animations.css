@@ -11,6 +11,11 @@
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+#learn{
+    animation-name: explore_animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
 @keyframes line_animation{
     from {
         transform: rotate(0deg);
@@ -26,12 +31,24 @@
     animation-timing-function: linear;
     animation-direction: reverse;
 }
-@keyframes nav_animation{
-    from{
-        margin-right: -200px;
+@media (min-width: 321px){
+    @keyframes nav_animation{
+        from{
+            margin-right: -200px;
+        }
+        to{
+            margin-right: 0px;
+        }
     }
-    to{
-        margin-right: 0px;
+}
+@media (max-width: 320px){
+    @keyframes nav_animation{
+        from{
+            margin-right: -150px;
+        }
+        to{
+            margin-right: 0px;
+        }
     }
 }
 .header_nav_container{
